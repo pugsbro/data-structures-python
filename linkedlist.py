@@ -63,38 +63,3 @@ class LinkedList:
             count = count + 1
 
         print count 
-
-
-
-
-
-list1 = LinkedList()
-list1.headval = Node("pugs")
-
-entry2 = Node("frenchie")
-list1.headval.next = entry2
-
-entry3 = Node("lab")
-entry3.next = entry3
-
-list1.printlist()
-
-list1.append("Doug")
-
-list1.printlist()
-
-list1.start("lou lou the pug ")
-
-list1.printlist()
-
-list1.after(list1.headval, "hamlet")
-
-list1.printlist()       
-
-list1.size() 
-
-list1.remove("hamlet")
-list1.remove("frenchie")
-
-
-list1.printlist()
